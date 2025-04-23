@@ -3,6 +3,7 @@ import { endpointTypeValidationSchemaCreateEndpointType } from '@datr.tech/cargo
 import { campaignTypeValidationSchemaCreateCampaignType } from '@datr.tech/cargo-router-validation-schemas-freight';
 import { attributeTypeValidationSchemaCreateAttributeType } from '@datr.tech/cargo-router-validation-schemas-granul8';
 import { organisationRoleValidationSchemaReadOrganisationRole } from '@datr.tech/cargo-router-validation-schemas-persona';
+import { processValidationSchemaCreateProcess } from '@datr.tech/cargo-router-validation-schemas-proc';
 import { logger } from '@datr.tech/leith-common-logger';
 import { common, persona } from '@datr.tech/parcel-model-schemas';
 import {
@@ -50,3 +51,4 @@ logger.info({ endpointTypeValidationSchemaCreateEndpointType });
 logger.info({ campaignTypeValidationSchemaCreateCampaignType });
 logger.info({ attributeTypeValidationSchemaCreateAttributeType });
 logger.info({ organisationRoleValidationSchemaReadOrganisationRole });
+logger.info({ processValidationSchemaCreateProcess });
