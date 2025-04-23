@@ -53,6 +53,8 @@
     "@datr.tech/cargo-router-validation-schemas-persona": "^0.4.0",
     "@datr.tech/cargo-router-validation-schemas-proc": "^0.4.0",
     "@datr.tech/leith-common-logger": "^0.4.0",
+    "@datr.tech/leith-config-api-ports": "^0.4.5",
+    "@datr.tech/leith-config-api-router-options": "^0.4.0",
     "@datr.tech/parcel-model-schemas": "^0.4.0",
     "@datr.tech/parcel-model-schemas-common-fields": "^0.4.0",
     "@datr.tech/parcel-model-schemas-dolomite": "^0.5.0",
