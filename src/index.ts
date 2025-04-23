@@ -1,3 +1,4 @@
+import { dolomite, entity } from '@datr.tech/cargo-router-validation-schemas';
 import { hopValidationSchemaCreateHop } from '@datr.tech/cargo-router-validation-schemas-dolomite';
 import { endpointTypeValidationSchemaCreateEndpointType } from '@datr.tech/cargo-router-validation-schemas-entity';
 import { campaignTypeValidationSchemaCreateCampaignType } from '@datr.tech/cargo-router-validation-schemas-freight';
@@ -52,3 +53,5 @@ logger.info({ campaignTypeValidationSchemaCreateCampaignType });
 logger.info({ attributeTypeValidationSchemaCreateAttributeType });
 logger.info({ organisationRoleValidationSchemaReadOrganisationRole });
 logger.info({ processValidationSchemaCreateProcess });
+logger.info({ dolomite });
+logger.info({ entity });
