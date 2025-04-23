@@ -1,6 +1,6 @@
 {
   "name": "@datr.tech/leith-manual-pkg-integration-test",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "private": false,
   "description": "A manual integration test for the @datr.tech cargo, leith and parcel packages",
   "keywords": [
