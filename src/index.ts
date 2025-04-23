@@ -6,6 +6,7 @@ import { attributeTypeValidationSchemaCreateAttributeType } from '@datr.tech/car
 import { organisationRoleValidationSchemaReadOrganisationRole } from '@datr.tech/cargo-router-validation-schemas-persona';
 import { processValidationSchemaCreateProcess } from '@datr.tech/cargo-router-validation-schemas-proc';
 import { logger } from '@datr.tech/leith-common-logger';
+import { adminService } from '@datr.tech/leith-common-services';
 import { ports } from '@datr.tech/leith-config-api-ports';
 import { options } from '@datr.tech/leith-config-api-router-options';
 import { common, persona } from '@datr.tech/parcel-model-schemas';
@@ -59,3 +60,4 @@ logger.info({ dolomite });
 logger.info({ entity });
 logger.info({ OPTIONS: options });
 logger.info({ PORTS: ports });
+logger.info({ ADMIN: Object.keys(adminService) });
